@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.s.easylog.EasylogApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-31T06:04:00" hostname="krampoline" time="1.683">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.s.easylog.EasylogApplicationTests" time="1.683"/>
+  <system-out><![CDATA[06:03:49.765 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.s.easylog.EasylogApplicationTests]: EasylogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+06:03:50.067 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.s.easylog.EasylogApplication for test class com.s.easylog.EasylogApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.5)
+
+2023-10-31T06:03:51.179Z  INFO 3633 --- [    Test worker] com.s.easylog.EasylogApplicationTests    : Starting EasylogApplicationTests using Java 17.0.7 with PID 3633 (started by root in /workspace/EasyLogBE)
+2023-10-31T06:03:51.181Z  INFO 3633 --- [    Test worker] com.s.easylog.EasylogApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-10-31T06:03:53.045Z  INFO 3633 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-31T06:03:53.072Z  INFO 3633 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2023-10-31T06:03:54.784Z  INFO 3633 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-31T06:03:55.447Z  INFO 3633 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:fc4e3781-37d8-4413-adf7-e004f2697937 user=SA
+2023-10-31T06:03:55.450Z  INFO 3633 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-31T06:03:55.568Z  INFO 3633 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-31T06:03:55.749Z  INFO 3633 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-10-31T06:03:55.752Z  INFO 3633 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-31T06:03:56.553Z  INFO 3633 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-31T06:03:57.962Z  INFO 3633 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-10-31T06:03:57.973Z  INFO 3633 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-31T06:03:58.548Z  WARN 3633 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-31T06:03:59.982Z  INFO 3633 --- [    Test worker] com.s.easylog.EasylogApplicationTests    : Started EasylogApplicationTests in 9.505 seconds (process running for 12.94)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,11 +1,10 @@
 HELP.md
 .gradle
-!build/libs/easylog-0.0.1-SNAPSHOT.jar
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
+!build/libs/easylog-0.0.1-SNAPSHOT.jar
 
 ### STS ###
 .apt_generated
